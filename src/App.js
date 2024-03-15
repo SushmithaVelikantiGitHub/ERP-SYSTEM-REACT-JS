@@ -7,7 +7,7 @@ import Product from './ProductsManagement';
 import Order from './OrdersManagement';
 import OrderCalenderView  from './CalenderView';
 import './App.css'; 
-import './assets/Screenshot 2024-03-11 163547.png';
+
 
 function App() {
   return (
