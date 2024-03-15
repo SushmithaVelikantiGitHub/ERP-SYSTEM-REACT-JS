@@ -1,0 +1,80 @@
+
+
+.container {
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  
+  
+  .title {
+    font-family: Arial, sans-serif;
+    font-size: 34px;
+    color:red;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-bottom: 2px solid #ff0000; /* Blue border bottom, change color as needed */
+    padding-bottom: 15px;
+  }
+  .scrolling-text {
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    color:blue;
+    
+  }
+  
+  
+  .metricsContainer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+   
+  }
+  
+  .metric {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    flex-basis: calc(30% - 20px);
+    margin-bottom: 20px;
+    text-align: center;
+    color: aqua;
+    
+  }
+  
+  .metric h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .metric p {
+    font-size: 18px;
+    color: #666;
+  }
+  
+  .metric:hover {
+    transform: translateY(-5px);
+    transition: transform 0.3s ease;
+  }
+  
+  
+  @media screen and (max-width: 768px) {
+    .metricsContainer{
+    display: flex;
+    flex-direction: column;
+    }
+    .metricsContainer{
+      margin: 20px;
+    }
+    }
+  
